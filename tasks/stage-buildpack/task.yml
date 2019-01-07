@@ -30,6 +30,7 @@ params:
   CF_USERNAME:
   CF_PASSWORD:
   BUILDPACK_NAME:
+  GODEBUG: 'netdns=cgo'
 
 run:
   path: pcf-pipelines/tasks/stage-buildpack/task.sh
