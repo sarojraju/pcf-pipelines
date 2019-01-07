@@ -31,6 +31,7 @@ params:
   CF_PASSWORD:
   BUILDPACK_NAME:
   GODEBUG: 'netdns=cgo'
+  CF_TRACE: true
 
 run:
   path: pcf-pipelines/tasks/stage-buildpack/task.sh
